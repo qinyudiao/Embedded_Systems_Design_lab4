@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+Z:\Downloads\Lab4current\currentLab4\Blynk.uvproj
+Project File Date:  10/01/2018
+
+<h2>Output:</h2>
+Build target 'Blynk'
+compiling Blynk.c...
+compiling Speaker.c...
+linking...
+Program Size: Code=16384 RO-data=15496 RW-data=808 ZI-data=2064  
+".\Blynk.axf" - 0 Error(s), 0 Warning(s).
+ UART.c...
+assembling startup.s...
+compiling LCD.c...
+compiling Systick.c...
+compiling Timer.c...
+compiling Speaker.c...
+linking...
+Program Size: Code=16384 RO-data=15496 RW-data=812 ZI-data=2060  
+".\Blynk.axf" - 0 Error(s), 0 Warning(s).
+Load "Z:\\Downloads\\Lab4current\\currentLab4\\Blynk.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+ash Download failed  -  Target DLL has been cancelled
+Load "Z:\\Downloads\\Lab4current\\currentLab4\\Blynk.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+ identifier "time_sw" is undefined
+                                 outputTimer(time_sw, 6);
+Blynk.c: 2 warnings, 4 errors
+compiling esp8266.c...
+compiling PLL.c...
+compiling PortF.c...
+compiling ST7735.c...
+compiling Timer2.c...
+compiling Timer3.c...
+compiling UART.c...
+assembling startup.s...
+compiling LCD.c...
+compiling Systick.c...
+compiling Timer.c...
+compiling Speaker.c...
+".\Blynk.axf" - 4 Error(s), 2 Warning(s).
+Target not created
+     ST7735_DrawString(8,10,phases[2].options[1], phases[2].color[1]);
+Blynk.c(292): error:  #147-D: declaration is incompatible with "uint32_t ST7735_DrawString(uint16_t, uint16_t, char *, int16_t)" (declared at line 301 of "..\inc\ST7735.h")
+           ST7735_DrawString(8,10,phases[2].options[1], phases[2].color[1]);
+Blynk.c(293): error:  #79: expected a type specifier
+           ST7735_SetCursor(6, 6);
+Blynk.c(293): error:  #79: expected a type specifier
+           ST7735_SetCursor(6, 6);
+Blynk.c(293): error:  #260-D: explicit type is missing ("int" assumed)
+           ST7735_SetCursor(6, 6);
+Blynk.c(293): error:  #147: declaration is incompatible with "void ST7735_SetCursor(uint32_t, uint32_t)" (declared at line 312 of "..\inc\ST7735.h")
+           ST7735_SetCursor(6, 6);
+Blynk.c(295): error:  #79: expected a type specifier
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(295): error:  #79: expected a type specifier
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(295): error:  #757: variable "hour" is not a type name
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(295): error:  #757: variable "phases" is not a type name
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(295): error:  #18: expected a ")"
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(295): error:  #260-D: explicit type is missing ("int" assumed)
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(295): error:  #147-D: declaration is incompatible with "int ST7735_DrawString(<error-type>, <error-type>, <error-type> *)" (declared at line 301 of "..\inc\ST7735.h")
+           ST7735_DrawString(6,6,hour,phases[2].color[2]);
+Blynk.c(296): error:  #79: expected a type specifier
+           ST7735_DrawString(8,6,":",ST7735_WHITE);
+Blynk.c(296): error:  #79: expected a type specifier
+           ST7735_DrawString(8,6,":",ST7735_WHITE);
+Blynk.c(296): error:  #79: expected a type specifier
+           ST7735_DrawString(8,6,":",ST7735_WHITE);
+Blynk.c(296): error:  #79: expected a type specifier
+           ST7735_DrawString(8,6,":",ST7735_WHITE);
+Blynk.c(296): error:  #260-D: explicit type is missing ("int" assumed)
+           ST7735_DrawString(8,6,":",ST7735_WHITE);
+Blynk.c(297): error:  #79: expected a type specifier
+           ST7735_DrawString(9,6,min,phases[2].color[3]);
+Blynk.c(297): error:  #79: expected a type specifier
+           ST7735_DrawString(9,6,min,phases[2].color[3]);
+Blynk.c(297): error:  #757: variable "min" is not a type name
+           ST7735_DrawString(9,6,min,phases[2].color[3]);
+Blynk.c(297): error:  #757: variable "phases" is not a type name
+           ST7735_DrawString(9,6,min,phases[2].color[3]);
+Blynk.c(297): error:  #18: expected a ")"
+           ST7735_DrawString(9,6,min,phases[2].color[3]);
+Blynk.c(297): error:  #260-D: explicit type is missing ("int" assumed)
+           ST7735_DrawString(9,6,min,phases[2].color[3]);
+Blynk.c: 3 warnings, 30 errors
+compiling Systick.c...
+".\Blynk.axf" - 30 Error(s), 3 Warning(s).
+Target not created
